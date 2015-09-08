@@ -1,0 +1,177 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-gwqb9p');
+	src:url('fonts/icomoon.eot?#iefix-gwqb9p') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-gwqb9p') format('woff'),
+		url('fonts/icomoon.ttf?-gwqb9p') format('truetype'),
+		url('fonts/icomoon.svg?-gwqb9p#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-svg4:before {
+	content: "\e603";
+}
+
+.icon-svg5:before {
+	content: "\e604";
+}
+
+.icon-svg6:before {
+	content: "\e605";
+}
+
+.icon-svg7:before {
+	content: "\e606";
+}
+
+.icon-svg8 .path1:before {
+	content: "\e607";
+	color: rgb(34, 31, 32);
+}
+.icon-svg8 .path2:before {
+	content: "\e608";
+	margin-left: -1em;
+	color: rgb(34, 31, 32);
+}
+.icon-svg8 .path3:before {
+	content: "\e609";
+	margin-left: -1em;
+	color: rgb(34, 31, 32);
+}
+.icon-svg8 .path4:before {
+	content: "\e60a";
+	margin-left: -1em;
+	color: rgb(34, 31, 32);
+}
+.icon-svg8 .path5:before {
+	content: "\e60b";
+	margin-left: -1em;
+	color: rgb(34, 31, 32);
+}
+.icon-svg8 .path6:before {
+	content: "\e60c";
+	margin-left: -1em;
+	color: rgb(34, 31, 32);
+}
+.icon-svg8 .path7:before {
+	content: "\e60d";
+	margin-left: -1em;
+	color: rgb(34, 31, 32);
+}
+.icon-svg8 .path8:before {
+	content: "\e60e";
+	margin-left: -1em;
+	color: rgb(34, 31, 32);
+}
+.icon-svg8 .path9:before {
+	content: "\e60f";
+	margin-left: -1em;
+	color: rgb(34, 31, 32);
+}
+.icon-svg8 .path10:before {
+	content: "\e610";
+	margin-left: -1em;
+	color: rgb(34, 31, 32);
+}
+.icon-svg8 .path11:before {
+	content: "\e611";
+	margin-left: -1em;
+	color: rgb(4, 0, 0);
+}
+.icon-svg8 .path12:before {
+	content: "\e612";
+	margin-left: -1em;
+	color: rgb(4, 0, 0);
+}
+
+.icon-svg9:before {
+	content: "\e613";
+}
+
+.icon-svg10:before {
+	content: "\e614";
+}
+
+.icon-svg11:before {
+	content: "\e615";
+}
+
+.icon-svg12:before {
+	content: "\e616";
+}
+
+.icon-svg13:before {
+	content: "\e617";
+}
+
+.icon-svg14:before {
+	content: "\e618";
+}
+
+.icon-svg15 .path1:before {
+	content: "\e619";
+	color: rgb(34, 31, 32);
+}
+.icon-svg15 .path2:before {
+	content: "\e61a";
+	margin-left: -1em;
+	color: rgb(34, 31, 32);
+}
+.icon-svg15 .path3:before {
+	content: "\e61b";
+	margin-left: -1em;
+	color: rgb(34, 31, 32);
+}
+.icon-svg15 .path4:before {
+	content: "\e61c";
+	margin-left: -1em;
+	color: rgb(4, 0, 0);
+}
+
+.icon-svg16:before {
+	content: "\e61d";
+}
+
+.icon-svg17:before {
+	content: "\e61e";
+}
+
+.icon-svg18:before {
+	content: "\e61f";
+}
+
+.icon-svg19:before {
+	content: "\e620";
+}
+
+.icon-svg20:before {
+	content: "\e621";
+}
+
+.icon-svg:before {
+	content: "\e600";
+}
+
+.icon-svg2:before {
+	content: "\e601";
+}
+
+.icon-svg3:before {
+	content: "\e602";
+}
+

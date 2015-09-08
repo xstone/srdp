@@ -1,0 +1,196 @@
+img.am-thumbnail,.am-thumbnail img{
+	max-width:100%;
+	height:auto;
+	border-color: #fff;
+	opacity: 0.7;
+}
+.label-style{
+	max-width: 100%;
+	height: auto;
+}
+#checkbox-style-1, #checkbox-style-2, #checkbox-style-3, #checkbox-style-4, #checkbox-style-5,
+#checkbox-style-6, #checkbox-style-7, #checkbox-style-8, #checkbox-style-9, #checkbox-style-10 {
+    display: none;
+}
+.label-style img:hover { 
+    opacity: 1;
+    cursor:pointer;
+  	-webkit-transition: background-color 0.35s, opacity 0.35s, -webkit-transform 0.35s;
+  	transition: background-color 0.35s, opacity 0.35s, transform 0.35s;
+  	-webkit-transform: translate3d(0,0, 0);
+  	transform: translate3d(0,0,0);
+}
+#checkbox-style-1:checked + label > img, #checkbox-style-2:checked + label > img, #checkbox-style-3:checked + label > img,
+#checkbox-style-4:checked + label > img, #checkbox-style-5:checked + label > img, #checkbox-style-6:checked + label > img,
+#checkbox-style-7:checked + label > img, #checkbox-style-8:checked + label > img, #checkbox-style-9:checked + label > img,
+#checkbox-style-10:checked + label > img
+{
+	opacity: 1;
+	transition: border linear .2s,box-shadow linear .5s,background-color linear .2s;
+	background-color: #F00;
+	border-color: #F00;
+	box-shadow: 0 0 5px rgba(255,0,0, 1);
+	-webkit-box-shadow: 0 0 5px rgba(255,0,0, 1);
+	-moz-box-shadow: 0 0 5px rgba(255,0,0, 1);
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/clothes/icomoon.eot?-gwqb9p');
+	src:url('../fonts/clothes/icomoon.eot?#iefix-gwqb9p') format('embedded-opentype'),
+		url('../fonts/clothes/icomoon.woff?-gwqb9p') format('woff'),
+		url('../fonts/clothes/icomoon.ttf?-gwqb9p') format('truetype'),
+		url('../fonts/clothes/icomoon.svg?-gwqb9p#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+[class^="clothes-"], [class*=" clothes-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.clothes-1:before {
+	content: "\e602";
+	font-size:100px;
+}
+.clothes-2:before {
+	content: "\e601";
+	font-size:100px;
+}
+
+.clothes-3:before {
+	content: "\e600";
+	font-size:100px;
+}
+.clothes-4:before {
+	content: "\e603";
+	font-size: 50px;
+}
+/* 眼睛 */
+.clothes-5:before {
+	content: "\e61e";
+	font-size:40px;
+}
+/* 长上衣 */
+.clothes-6:before {
+	content: "\e605";
+	font-size:70px;
+}
+/* 长裤 */
+.clothes-7:before {
+	content: "\e613";
+	font-size:63px;
+	margin-left: 2px;
+}
+.clothes-7 {
+	margin-top: 0px;
+}
+/* 西装 */
+.clothes-8:before {
+	content: "\e601";
+	font-size:70px;
+}
+/* T恤 */
+.clothes-9:before {
+	content: "\e606";
+	font-size:70px;
+}
+
+.am-topbar-right > span {
+	line-height: 50px;
+	padding: 0px 10px;
+	cursor: pointer;
+	color: #000;
+}
+.index-border {
+	margin-bottom: 80px;
+	border-bottom: 1px solid #DED6D6;
+}
+/* 重新固定容器为1100px */
+.am-container {
+  max-width: 1100px !important;
+}
+.about .am-container {
+  max-width: 400px !important;
+}
+.footer .am-container {
+	padding-bottom: 80px;
+	font-size: 12px;
+}
+.footer-title {
+   padding: 30px 0 50px 0;
+   text-align: center;
+}
+.footer {
+  background: #000;
+  color: #fff;
+}
+.footer p, .footer a {
+  color: #7f8c8d;
+}
+.footer a{
+	border-bottom: 1px solid;
+	padding-bottom: 1px;
+}
+.footer a:hover {
+	color: #0E90D2;
+}
+
+.footer-border {
+	border-width: 30px 30px 0px;
+	border-style: solid;
+	border-color: #FFF transparent;
+	width: 0px;
+	height: 0px;
+	margin: 0px auto;
+	padding-bottom: 80px;
+}
+.story-1 {
+	background: url("../../images/bg-shade.png") no-repeat fixed center center / cover #EEE;
+     padding: 50px 0;
+     color: #999;
+}
+.story-2 {
+	padding:150px 0px;
+	background: url("../../images/sectionBg.jpg") repeat scroll 0% 0% #EEE;
+}
+.story-2 .no-padding {
+	padding:0;
+}
+.story-2 .am-container {
+	max-width: 900px !important;
+	background-color: #FAFAFA;
+	margin-bottom: 150px;
+}
+.stroy-2 p{
+	color: #7F8C8D;
+}
+.detail-mb {
+      margin-bottom: 80px;
+      cursor: default;
+}
+.detail-mb:hover h3 {
+	-ms-transform: scale(1.15); 	/* IE 9 */
+	-moz-transform: scale(1.15); 	/* Firefox */
+	-webkit-transform: scale(1.15); /* Safari 和 Chrome */
+	-o-transform: scale(1.15); 	/* Opera */
+	transform: scale(1.15);
+	color: #de4957; 
+}
+.detail-mb h3 {
+	transition: all 0.3s ease 0s;
+}
+.get, .story-1, .story-2 , .about, .footer{
+	cursor: default;
+}
